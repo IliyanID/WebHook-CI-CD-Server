@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {
+        "eventType": {
+            "type": "string",
+            "enum": ["NEW", "UPDATE", "CANCEL", "DELETE"]
+        }
+    }
+}

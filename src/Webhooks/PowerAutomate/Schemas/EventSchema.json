@@ -1,0 +1,27 @@
+{
+    "type": "object",
+    "properties": {
+        "subject": {
+            "type": "string"
+        },
+        "time_zone": {
+            "type": "string"
+        },
+        "location": {
+            "type": "string"
+        },
+        "recurrence": {
+            "type": "string"
+        },
+        "start_time": {
+            "type": "string"
+        },
+        "end_time": {
+            "type": "string"
+        },
+        "id": {
+            "type": "string"
+        }
+    },
+    "required": ["subject", "time_zone", "location", "recurrence", "start_time", "end_time", "id"]
+}
